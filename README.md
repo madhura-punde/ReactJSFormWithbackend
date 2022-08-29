@@ -54,4 +54,4 @@ req.body
  The database name is 'MyCompanyDBName' which can later be chnaged. 
 4) Also there were only 2 backend API, so those routes are in app.js
 5) Tested the apis on postman.
-6) To start backend, use node app.js
+6) To start backend, use command- node app.js
