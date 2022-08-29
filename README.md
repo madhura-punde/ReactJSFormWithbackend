@@ -30,13 +30,13 @@ Backend-
 A)FRONTEND
 
 As reactJS is used for the implementation of UI, following is the structure:-
-1)App.js includes all the routes path
-2)In the component folder, there are 3 files for home, signup and login feature.
-3)ALl are function based component.
-4)For calling API, axios is used in the frontend.
-5)Basic hook is used, as the task was simple-useState
-Please ignore the store folder and redux code.
-6)To start Frontend use command- npm start
+1) App.js includes all the routes path
+2) In the component folder, there are 3 files for home, signup and login feature.
+3) ALl are function based component.
+4) For calling API, axios is used in the frontend.
+5) Basic hook is used, as the task was simple-useState
+    Please ignore the store folder and redux code.
+6) To start Frontend use command- npm start
 
 B)BACKEND
 
