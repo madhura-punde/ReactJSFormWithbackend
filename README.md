@@ -36,20 +36,22 @@ As reactJS is used for the implementation of UI, following is the structure:-
 4)For calling API, axios is used in the frontend.
 5)Basic hook is used, as the task was simple-useState
 Please ignore the store folder and redux code.
+6)To start Frontend use command- npm start
 
 B)BACKEND
 
 Backend Logic is in the server folder.
 
-1)For the backend, express framework is used to handle routes.
+1) For the backend, express framework is used to handle routes.
 Currently we have 2 routes,to handle request which is comming from frontend.
-1)/login - if credentials match, user will successfully login.
-2)/register - will save new user to collection.
+1) '/login' - if credentials match, user will successfully login.
+2) '/register' - will save new user to collection.
 
-2)Apart from that,cors middleware is used for inter domain communication.
+2) Apart from that,cors middleware is used for inter domain communication.
 And body-parser is used for the getting data which is coming through HTTP 
 req.body  
-3)The schema has been defined in the schema folder.
+3) The schema has been defined in the schema folder.
  The database name is 'MyCompanyDBName' which can later be chnaged. 
-4)Also there were only 2 backend API, so those routes are in app.js
-5)Tested the apis on postman.
+4) Also there were only 2 backend API, so those routes are in app.js
+5) Tested the apis on postman.
+6) To start backend, use node app.js
